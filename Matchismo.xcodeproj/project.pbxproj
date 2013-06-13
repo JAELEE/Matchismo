@@ -18,6 +18,9 @@
 		538CDDBC17689AFE00261EAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 538CDDBB17689AFE00261EAF /* Default-568h@2x.png */; };
 		538CDDBF17689AFE00261EAF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538CDDBD17689AFE00261EAF /* MainStoryboard.storyboard */; };
 		538CDDC217689AFE00261EAF /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538CDDC117689AFE00261EAF /* CardGameViewController.m */; };
+		538CDDCA1768CEB600261EAF /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 538CDDC91768CEB600261EAF /* Deck.m */; };
+		538CDDCE1768CF0800261EAF /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 538CDDCD1768CF0800261EAF /* Card.m */; };
+		538CDDD11768DA4B00261EAF /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 538CDDD01768DA4B00261EAF /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		538CDDBE17689AFE00261EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		538CDDC017689AFE00261EAF /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		538CDDC117689AFE00261EAF /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		538CDDC81768CEB600261EAF /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		538CDDC91768CEB600261EAF /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		538CDDCC1768CF0800261EAF /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		538CDDCD1768CF0800261EAF /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		538CDDCF1768DA4B00261EAF /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		538CDDD01768DA4B00261EAF /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,7 @@
 				538CDDB417689AFE00261EAF /* CardGameAppDelegate.h */,
 				538CDDB517689AFE00261EAF /* CardGameAppDelegate.m */,
 				538CDDBD17689AFE00261EAF /* MainStoryboard.storyboard */,
+				538CDDCB1768CEC500261EAF /* Model */,
 				538CDDC017689AFE00261EAF /* CardGameViewController.h */,
 				538CDDC117689AFE00261EAF /* CardGameViewController.m */,
 				538CDDAC17689AFE00261EAF /* Supporting Files */,
@@ -105,6 +115,19 @@
 				538CDDBB17689AFE00261EAF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		538CDDCB1768CEC500261EAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				538CDDC81768CEB600261EAF /* Deck.h */,
+				538CDDCF1768DA4B00261EAF /* PlayingCard.h */,
+				538CDDD01768DA4B00261EAF /* PlayingCard.m */,
+				538CDDC91768CEB600261EAF /* Deck.m */,
+				538CDDCC1768CF0800261EAF /* Card.h */,
+				538CDDCD1768CF0800261EAF /* Card.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +200,9 @@
 				538CDDB217689AFE00261EAF /* main.m in Sources */,
 				538CDDB617689AFE00261EAF /* CardGameAppDelegate.m in Sources */,
 				538CDDC217689AFE00261EAF /* CardGameViewController.m in Sources */,
+				538CDDCA1768CEB600261EAF /* Deck.m in Sources */,
+				538CDDCE1768CF0800261EAF /* Card.m in Sources */,
+				538CDDD11768DA4B00261EAF /* PlayingCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
