@@ -6,8 +6,15 @@
 //  Copyright (c) 2013 Kyle Adams. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Card.h"
 
-@interface PlayingCard : NSObject
+@interface PlayingCard : Card
+
+@property (strong, nonatomic) NSString *suit;
+@property (nonatomic) NSUInteger rank;
+
++ (NSArray *)validSuits;
++ (NSArray *)rankStrings;
++ (NSUInteger)maxRank;
 
 @end
