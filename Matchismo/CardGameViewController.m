@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (strong, nonatomic) CardMatchingGame *game;
 @property (weak, nonatomic) IBOutlet UILabel *scoreButton;
+@property (weak, nonatomic) IBOutlet UILabel *lastFlipLabel;
 
 @end
 
@@ -47,6 +48,7 @@
         cardButton.alpha = card.isUnplayable ? 0.3 : 1.0;
     }
     self.scoreButton.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
+    self.lastFlipLabel.text = self.game.flipDescription;
 }
 
 
@@ -63,5 +65,12 @@
     [self updateUI];
     self.flipCount++;
 }
+
+- (IBAction)resetGame:(UIButton *)sender {
+    self.game = nil;
+    self.flipCount = 0;
+    [self updateUI];
+}
+
 
 @end

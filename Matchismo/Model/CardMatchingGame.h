@@ -19,4 +19,5 @@
 
 @property (nonatomic, readonly)int score;
 
+@property (nonatomic, readonly) NSString *flipDescription;
 @end
