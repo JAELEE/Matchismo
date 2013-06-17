@@ -20,4 +20,9 @@
 @property (nonatomic, readonly)int score;
 
 @property (nonatomic, readonly) NSString *flipDescription;
+
+@property (nonatomic) BOOL threeCardMatchingMode;
+
+@property (nonatomic) int cardMatchingLevel;
+
 @end

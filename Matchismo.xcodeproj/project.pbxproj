@@ -23,6 +23,8 @@
 		538CDDCA1768CEB600261EAF /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 538CDDC91768CEB600261EAF /* Deck.m */; };
 		538CDDCE1768CF0800261EAF /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 538CDDCD1768CF0800261EAF /* Card.m */; };
 		538CDDD11768DA4B00261EAF /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 538CDDD01768DA4B00261EAF /* PlayingCard.m */; };
+		53978E47176C879E0093C60E /* card-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 53978E46176C879E0093C60E /* card-back.png */; };
+		53EAC633176C94CD005CF8A1 /* card-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EAC632176C94CD005CF8A1 /* card-back@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		538CDDCD1768CF0800261EAF /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		538CDDCF1768DA4B00261EAF /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		538CDDD01768DA4B00261EAF /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		53978E46176C879E0093C60E /* card-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-back.png"; sourceTree = "<group>"; };
+		53EAC632176C94CD005CF8A1 /* card-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-back@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		538CDDAC17689AFE00261EAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				53EAC632176C94CD005CF8A1 /* card-back@2x.png */,
+				53978E46176C879E0093C60E /* card-back.png */,
 				538CDDAD17689AFE00261EAF /* Matchismo-Info.plist */,
 				538CDDAE17689AFE00261EAF /* InfoPlist.strings */,
 				538CDDB117689AFE00261EAF /* main.m */,
@@ -197,6 +203,8 @@
 				538CDDBA17689AFE00261EAF /* Default@2x.png in Resources */,
 				538CDDBC17689AFE00261EAF /* Default-568h@2x.png in Resources */,
 				538CDDBF17689AFE00261EAF /* MainStoryboard.storyboard in Resources */,
+				53978E47176C879E0093C60E /* card-back.png in Resources */,
+				53EAC633176C94CD005CF8A1 /* card-back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
